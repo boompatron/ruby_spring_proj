@@ -12,10 +12,10 @@ public class Chapter01Application {
 		// run as java application
 		// no conflict even multiple run
 		// if WebApplicationType.SERVLET => run as web or undo
-		SpringApplication application = new SpringApplication(Chapter01Application.class);
-		application.setWebApplicationType(WebApplicationType.NONE);
-		application.setBannerMode(Banner.Mode.OFF);	// Hide Spring Banner
-		application.run(args);
+//		SpringApplication application = new SpringApplication(Chapter01Application.class);
+//		application.setWebApplicationType(WebApplicationType.SERVLET);
+//		application.setBannerMode(Banner.Mode.OFF);	// Hide Spring Banner
+//		application.run(args);
 
 		// run as web application
 		SpringApplication.run(Chapter01Application.class, args);
