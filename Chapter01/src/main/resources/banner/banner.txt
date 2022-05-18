@@ -1,0 +1,9 @@
+################################
+
+this is banner
+
+Spring is now running~~
+
+${spring-boot.formatted-version}
+
+################################
